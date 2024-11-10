@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #b0d4da;
+}
+
+#nav1{
+    text-align: right;
+    margin:10px;
+    display: flexbox;
+    padding-right: 30px;
+}
+.a a{
+    /* selected all the a (links ) in the a class using this*/
+    text-decoration: none;
+    padding-right: 7px;   /*so that there is some space bw the a links*/
+    
+    color: rgb(34, 38, 39);
+}
+
+.button  {
+display:inline;
+    position: relative;
+    top: 50%;
+    width: 130px;  /* Set width */
+    height: 60px; /* Set height */
+    cursor: pointer;
+    color:rgb(251, 251, 251);
+    font-size: large;
+    background-color: rgb(4, 4, 4);
+    left: 40%;
+border-radius: 5px;
+
+}
+
+.button:hover{
+transform: scale(1.15);
+   background-color: rgb(233, 26, 26);
+   color:rgb(0, 13, 5);
+}
+
+#headerimg {
+height:500px ;
+width: 100%;
+display: block;
+ 
+  background-image: url(images/hds.jpg);
+  background-repeat: no-repeat;
+background-position: center;
+
+}
+.heading{
+
+    color: rgb(66, 37, 21);
+    text-decoration: dotted;
+    font-style:normal;
+    font-size:medium;
+}
+
+#email{
+    color: azure;
+   margin-left: 700px;
+    height: 50px;
+   
+}
+#nav{
+background-color: bisque;
+
+}
+.text{
+    color: rgb(36, 2, 5)
+}
+.heading{
+
+    color:rgb(84, 19, 19);
+}
+.c {
+display: flex;  /*flex will  make the amlign horizontally the 4 images 
+                                                                   in the div sec*/
+
+   
+}
+.cheese{
+    height: 200px;
+    width: 100%;
+    
+   border:1px solid ;
+   border-color: rgb(41, 75, 125) ;
+ 
+   margin:30px;
+   margin-top: 40px;
+   display: flex;
+    
+}
+
+
+.cheese:hover{
+
+    transform: scale(1.15);  /* transform enalrge image*/
+}
+
+@media only screen 
+and (max-device-width: 600px){
+   
+}
